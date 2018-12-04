@@ -3,7 +3,7 @@ Generate haptic feedback from Flow signals
 
 Makes it possible to generate an haptic feedback response from CoreSignals.
 
-Example:
+## Example:
 
 ```swift
 
