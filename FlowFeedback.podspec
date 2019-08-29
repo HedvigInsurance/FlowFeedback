@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/HedvigInsurance/FlowFeedback.git', :tag => '1.0.1' }
 
   s.ios.deployment_target = '9.0'
-  s.source_files = '*.swift'
+  s.source_files = 'FlowFeedback/*.swift'
   s.swift_version = '4.2'
   s.dependency 'FlowFramework', '~> 1.3'
 end
