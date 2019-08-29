@@ -11,7 +11,7 @@ let package = Package(
             targets: ["FlowFeedback"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/hedviginsurance/flowfeedback", .branch("master")),
+        .package(url: "https://github.com/hedviginsurance/flow.git", .branch("master")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
